@@ -1,0 +1,6 @@
+{
+"editor.fontLigatures": false,
+"verilog.formatting.veribleVerilogFormatter.arguments": "--indentation_spaces 4",
+"verilog.languageServer.veribleVerilogLs.enabled": false,
+"verilog.languageServer.veridian.enabled": false,
+}

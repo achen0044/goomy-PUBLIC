@@ -1,0 +1,910 @@
+(
+    show_hierarchy: None,
+    show_menu: None,
+    show_ticks: None,
+    show_toolbar: None,
+    show_tooltip: None,
+    show_overview: None,
+    show_statusbar: None,
+    align_names_right: None,
+    show_variable_indices: None,
+    waves: Some((
+        source: File("cpu.vcd"),
+        format: Vcd,
+        active_scope: Some((
+            strs: [
+                "TOP",
+                "cpu",
+                "ldst_res_sta",
+            ],
+        )),
+        displayed_items_order: [
+            1,
+            2,
+            3,
+            4,
+            5,
+            14,
+            6,
+            15,
+            17,
+            35,
+            19,
+            20,
+            23,
+            24,
+            27,
+            28,
+            42,
+            37,
+            38,
+            45,
+            46,
+            43,
+            44,
+            34,
+            29,
+            30,
+            36,
+            32,
+            33,
+            39,
+            40,
+            41,
+            16,
+            7,
+            8,
+            13,
+            9,
+            12,
+            10,
+            11,
+        ],
+        displayed_items: {
+            15: Divider((
+                color: None,
+                background_color: None,
+                name: Some("ldst ressta"),
+            )),
+            16: Divider((
+                color: None,
+                background_color: None,
+                name: None,
+            )),
+            33: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "q1_has_writers",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "q1_has_writers",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            30: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "q0_has_writers",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "q0_has_writers",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            14: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "ROB_out_uid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "ROB_out_uid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            12: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst",
+                        ],
+                    ),
+                    name: "out_uid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "…ldst.out_uid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            13: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst",
+                        ],
+                    ),
+                    name: "in_uid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "…ldst.in_uid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            6: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "finish_size",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "finish_size",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            41: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "q2_has_writers",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "q2_has_writers",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            42: Divider((
+                color: None,
+                background_color: None,
+                name: None,
+            )),
+            19: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "in_params[1]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "in_params[1]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            11: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst",
+                        ],
+                    ),
+                    name: "out_loc",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "out_loc",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            39: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "q2_valid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "q2_valid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            4: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "TA_param_val1",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "TA_param_val1",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            1: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "clk",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "clk",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            9: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst",
+                        ],
+                    ),
+                    name: "has_outgoing",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "has_outgoing",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            10: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst",
+                        ],
+                    ),
+                    name: "result_val",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "result_val",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            37: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "head",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "head",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            2: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "TA_valid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "TA_valid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            38: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "tail",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "tail",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            40: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "q2_uid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "q2_uid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            5: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "TA_inst_type",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "TA_inst_type",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            35: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "in_uid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "…ldst_res_sta.in_uid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            36: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "q1_valid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "q1_valid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            43: Divider((
+                color: None,
+                background_color: None,
+                name: None,
+            )),
+            23: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "in_writers[1]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "in_writers[1]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            32: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "q1_uid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "q1_uid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            34: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "q0_valid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "q0_valid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            29: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "q0_uid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "q0_uid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            44: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "exec_once",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "exec_once",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            45: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "instantly_resolved",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "instantly_resolved",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            46: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "normally_resolved",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "normally_resolved",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            27: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "has_out",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "has_out",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            8: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst",
+                        ],
+                    ),
+                    name: "has_incoming",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "has_incoming",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            7: Divider((
+                color: None,
+                background_color: None,
+                name: Some("ldst unit"),
+            )),
+            28: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "out_uid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "…ldst_res_sta.out_uid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            24: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "in_writers[2]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "in_writers[2]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            17: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "has_in",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "has_in",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            20: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "in_params[2]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "in_params[2]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            3: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "TA_param_val0",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "TA_param_val0",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+        },
+        display_item_ref_counter: 46,
+        viewports: [
+            (
+                curr_left: (-0.0009454184726718673),
+                curr_right: (0.011381980917381138),
+            ),
+        ],
+        variable_format: {
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "q0_uid",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "head",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst",
+                        ],
+                    ),
+                    name: "out_uid",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "q2_uid",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "out_uid",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "in_uid",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "finish_size",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "tail",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "q0_has_writers",
+                ),
+                field: [],
+            ): "Binary",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "in_writers[1]",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "ROB_out_uid",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "clk",
+                ),
+                field: [],
+            ): "Clock",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "in_writers[2]",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "q1_has_writers",
+                ),
+                field: [],
+            ): "Binary",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "ldst_res_sta",
+                        ],
+                    ),
+                    name: "q1_uid",
+                ),
+                field: [],
+            ): "Unsigned",
+        },
+        cursor: Some((1, [
+            6778,
+        ])),
+        right_cursor: None,
+        markers: {},
+        focused_item: Some(23),
+        default_variable_name_type: Unique,
+        scroll_offset: 0.0,
+    )),
+    previous_waves: None,
+    count: None,
+    blacklisted_translators: [],
+    show_about: false,
+    show_keys: false,
+    show_gestures: false,
+    show_quick_start: false,
+    show_license: false,
+    show_wave_source: true,
+    show_performance: false,
+    show_logs: false,
+    show_cursor_window: false,
+    wanted_timeunit: PicoSeconds,
+    time_string_format: None,
+    show_url_entry: false,
+    variable_name_filter_focused: false,
+    variable_name_filter_type: Fuzzy,
+    variable_name_filter_case_insensitive: true,
+    rename_target: None,
+    ui_zoom_factor: None,
+)

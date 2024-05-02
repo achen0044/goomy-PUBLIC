@@ -1,0 +1,66 @@
+@0
+
+// a thorough test of printing
+8500    // movl r0, #80 // print 'p'
+8520    // movl r0, #82 // print 'r'
+8690    // movl r0, #105 // print 'i'
+84e0    // movl r0, #78 // print 'n'
+8540    // movl r0, #84 // print 't'
+8490    // movl r0, #73 // print 'i'
+84e0    // movl r0, #78 // print 'n'
+8470    // movl r0, #71 // print 'g'
+80a0    // movl r0, #10 // print '\n'
+
+// set up hello loop that is about to occur
+// @18
+80a1    // movl r1, #10 // r1 = 10 //instruction 9 
+8012    // movl r2, #1 // r2 = 1 //instruction 10 (a)
+8183    // movl r3, #24 // r3 = 24 //instruction 11 (b)
+
+// @24
+0121    // sub r1, r1, r2 // r1 = r1 - r2 //instruction # 12
+
+// hello loop that test looping in assembly: have fun!
+// @26
+8680    // movl r0, #104 // print 'h'
+8650    // movl r0, #101 // print 'e'
+86c0    // movl r0, #108 // print 'l'
+86c0    // movl r0, #108 // print 'l'
+86f0    // movl r0, #111 // print 'o'
+8210    // movl r0, #33 // print '!'
+80a0    // movl r0, #10 // print '\n'
+e113    // jnz r3, r1 // if r1 != 0, jmp to r3
+
+
+// basically we branch past all of this so it gets skipped!
+// @42
+8402    // movl r2, #64 // r2 = 64
+8011    // movl r1, #1 // r1 = 1
+e112    // jnz r2, r1 // if r1 != 1, jmp to @r2
+8300    // movl r0, #48 // print '0' (shouldn't happen)
+8300    // movl r0, #48 // print '0' (shouldn't happen)
+8300    // movl r0, #48 // print '0' (shouldn't happen)
+8300    // movl r0, #48 // print '0' (shouldn't happen)
+8300    // movl r0, #48 // print '0' (shouldn't happen)
+8300    // movl r0, #48 // print '0' (shouldn't happen)
+8300    // movl r0, #48 // print '0' (shouldn't happen)
+8300    // movl r0, #48 // print '0' (shouldn't happen)
+
+// the branch should end up here!
+// @64
+8470    // movl r0, #71 // print 'g'
+84f0    // movl r0, #79 // print 'o'
+84f0    // movl r0, #79 // print 'o'
+8440    // movl r0, #68 // print 'd'
+8210    // movl r0, #33 // print '!'
+80a0    // movl r0, #10 // print '\n'
+
+
+// congrats you have passed this test!!!
+8450    // movl r0, #69 // print 'e'
+84e0    // movl r0, #78 // print 'n'
+8440    // movl r0, #68 // print 'd'
+80a0    // movl r0, #10 // print '\n'
+
+
+ffff

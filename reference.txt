@@ -1,0 +1,80 @@
+STYLESHEET/REFERENCES
+
+- snake_case_please
+
+- all cpu.v structs
+typedef struct packed {
+        bit finishing_instr; // NOTE is this bit even needed
+        bit [10:0] uid;
+        bit [15:0] val;
+        bit [17:0] loc; // same bit encoding as ROB location
+    } WB_entry_t;
+
+typedef struct packed {
+        bit [15:0] pc;
+        bit [17:0] loc;
+        bit [15:0] val;
+        bit done;
+    } entry_t;
+
+typedef struct packed {
+        bit [3:0] data_waddr;
+        bit [15:0] new_data;
+        bit [`ROB_QUEUE_BITS - 1:0] writer_uid;
+    } reg_writer_t;
+
+- writer encoding
+bit [`ROB_QUEUE_BITS:0] writer; // top bit 1 indicates no writer
+                   // rest are number 0-2048 of uid/index within ROB
+
+- location encoding:
+bit [17:0] loc; // bit 16 1 indicates a store (bits 15:0 should be location)
+                // bit 17 1 && bit 0=1 indicates a jump (rest are all 0),
+                // bit 17 && bit 0=0 indicates Don't Jump
+                // both 1s indicates we don't know (instr hasn't been decoded yet)
+                // both 0 means write to reg (and remaining bits 3:0 should be location)
+
+- instruction guide
+    0000aaaabbbbtttt  sub rt,ra,rb  regs[t] = regs[a] - regs[b]
+
+    1000iiiiiiiitttt  movl rt,i     regs[t] = sign_extend(i)
+    1001iiiiiiiitttt  movh rt,i     regs[t] = (regs[t] & 0xff) | (i << 8)
+
+    1110aaaa0000tttt  jz rt,ra      pc = (regs[ra] == 0) ? regs[rt] : pc + 2
+    1110aaaa0001tttt  jnz rt,ra     pc = (regs[ra] != 0) ? regs[rt] : pc + 2
+    1110aaaa0010tttt  js rt,ra      pc = (regs[ra] < 0) ? regs[rt] : pc + 2
+    1110aaaa0011tttt  jns rt,ra     pc = (regs[ra] >= 0) ? regs[rt] : pc + 2
+
+    1111aaaa0000tttt  ld rt,ra      regs[t] = mem[regs[a]]
+    1111aaaa0001tttt  st rt,ra      mem[regs[a]] = regs[t]
+
+- PARAM ORDER FOR RES STA
+    sub: taddr, aval, bval
+    movl: taddr, i
+    movh: taddr, i, tval
+    ALL jump: tval, aval, jump type
+    ld/st: taddr, aval, tval, action type
+
+JUMP TYPE PARAMETER:
+    - 00 (0) for jz
+    - 01 (1) for jnz
+    - 10 (2) for js
+    - 11 (3) for jns
+
+- indices for RI(read instruction), PT(passthrough), DC(decoder), TA(task allocator)
+wire[8:0]XX_inst_type;
+    `define sub 8
+    `define movl 7
+    `define movh 6
+    `define jz 5
+    `define jnz 4
+    `define js 3
+    `define jns 2
+    `define ld 1
+    `define st 0
+
+wire [15:0]XX_inst;
+    `define aAddr 11:8
+    `define bAddr 7:4
+    `define tAddr 3:0
+    `define iImmd 11:4

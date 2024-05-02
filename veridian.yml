@@ -1,0 +1,7 @@
+verilator:
+    args:
+      - --lint-only
+      - --sv
+      - -Wall
+      - --timescale 1ps/1ps
+      - --timing

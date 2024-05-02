@@ -1,0 +1,626 @@
+(
+    show_hierarchy: None,
+    show_menu: None,
+    show_ticks: None,
+    show_toolbar: None,
+    show_tooltip: None,
+    show_overview: None,
+    show_statusbar: None,
+    align_names_right: None,
+    show_variable_indices: None,
+    waves: Some((
+        source: File("./cpu.vcd"),
+        format: Vcd,
+        active_scope: Some((
+            strs: [
+                "TOP",
+                "cpu",
+                "sub_res_sta",
+            ],
+        )),
+        displayed_items_order: [
+            1,
+            2,
+            6,
+            73,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            164,
+            165,
+            187,
+            179,
+            180,
+            166,
+            167,
+            169,
+            181,
+            182,
+            183,
+            174,
+            184,
+            185,
+            186,
+        ],
+        displayed_items: {
+            158: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "in_writers[0]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "in_writers[0]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            2: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "RI_pc",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "RI_pc",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            157: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "in_params[2]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "in_params[2]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            167: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "tail",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "tail",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            184: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "q1_uid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "q1_uid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            185: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "q1_has_writers",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "q1_has_writers",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            160: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "in_writers[2]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "in_writers[2]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            180: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "normally_resolved",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "normally_resolved",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            1: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "clk",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "clk",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            181: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "q0_uid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "q0_uid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            6: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "TA_valid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "TA_valid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            179: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "instantly_resolved",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "instantly_resolved",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            166: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "head",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "head",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            169: Divider((
+                color: None,
+                background_color: None,
+                name: Some("q0"),
+            )),
+            155: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "in_params[0]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "in_params[0]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            154: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "in_uid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "in_uid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            183: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "q0_writers",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "q0_writers",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            161: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "has_out",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "has_out",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            153: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "has_in",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "has_in",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            159: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "in_writers[1]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "in_writers[1]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            182: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "q0_has_writers",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "q0_has_writers",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            164: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "out_params",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "out_params",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            186: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "q1_writers",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "q1_writers",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            187: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "instant_resolve",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "instant_resolve",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            152: Divider((
+                color: None,
+                background_color: None,
+                name: Some("sub res sta"),
+            )),
+            73: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "TA_inst",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "TA_inst",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            165: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "saved_has_out",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "saved_has_out",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            174: Divider((
+                color: None,
+                background_color: None,
+                name: Some("q1"),
+            )),
+            162: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "out_uid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "out_uid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            156: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "in_params[1]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "in_params[1]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+        },
+        display_item_ref_counter: 188,
+        viewports: [
+            (
+                curr_left: (-0.011309093756626675),
+                curr_right: (0.05026967875619292),
+            ),
+        ],
+        variable_format: {
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "q0_has_writers",
+                ),
+                field: [],
+            ): "Binary",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "q1_has_writers",
+                ),
+                field: [],
+            ): "Binary",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "clk",
+                ),
+                field: [],
+            ): "Clock",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "RI_pc",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "sub_res_sta",
+                        ],
+                    ),
+                    name: "instant_resolve",
+                ),
+                field: [],
+            ): "Unsigned",
+        },
+        cursor: Some((1, [
+            637,
+        ])),
+        right_cursor: None,
+        markers: {},
+        focused_item: Some(10),
+        default_variable_name_type: Unique,
+        scroll_offset: 0.0,
+    )),
+    previous_waves: None,
+    count: None,
+    blacklisted_translators: [],
+    show_about: false,
+    show_keys: false,
+    show_gestures: false,
+    show_quick_start: false,
+    show_license: false,
+    show_wave_source: true,
+    show_performance: false,
+    show_logs: false,
+    show_cursor_window: false,
+    wanted_timeunit: PicoSeconds,
+    time_string_format: None,
+    show_url_entry: false,
+    variable_name_filter_focused: false,
+    variable_name_filter_type: Fuzzy,
+    variable_name_filter_case_insensitive: true,
+    rename_target: None,
+    ui_zoom_factor: None,
+)

@@ -1,0 +1,1112 @@
+(
+    show_hierarchy: None,
+    show_menu: None,
+    show_ticks: None,
+    show_toolbar: None,
+    show_tooltip: None,
+    show_overview: None,
+    show_statusbar: None,
+    align_names_right: None,
+    show_variable_indices: None,
+    waves: Some((
+        source: File("/Users/amrina/VSCode/goomy/cpu.vcd"),
+        format: Vcd,
+        active_scope: Some((
+            strs: [
+                "TOP",
+                "cpu",
+                "regs",
+            ],
+        )),
+        displayed_items_order: [
+            1,
+            290,
+            2,
+            289,
+            6,
+            73,
+            285,
+            309,
+            308,
+            286,
+            209,
+            220,
+            222,
+            224,
+            248,
+            225,
+            221,
+            282,
+            283,
+            284,
+            287,
+            288,
+            292,
+            307,
+            306,
+            296,
+            300,
+            297,
+            298,
+            299,
+            305,
+            295,
+            302,
+            303,
+            304,
+            313,
+            314,
+            315,
+            316,
+            317,
+            319,
+            320,
+            318,
+            321,
+            322,
+            323,
+            325,
+            326,
+            327,
+            328,
+            329,
+            330,
+            331,
+            332,
+        ],
+        displayed_items: {
+            329: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "writer[3]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "writer[3]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            248: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "MOVL_out_uid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "MOVL_out_uid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            1: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "clk",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "clk",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            315: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "change_writer",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "change_writer",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            220: Divider((
+                color: None,
+                background_color: None,
+                name: Some("outgoings"),
+            )),
+            209: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "finish_size",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "finish_size",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            303: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "ci1_uid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "ci1_uid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            308: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "WB_jump_loc",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "WB_jump_loc",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            322: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "data[5]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "data[5]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            73: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "TA_inst",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "TA_inst",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            317: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "writer_waddr",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "writer_waddr",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            331: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "writer[5]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "writer[5]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            330: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "writer[4]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "writer[4]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            328: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "writer[2]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "writer[2]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            6: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "TA_valid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "TA_valid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            326: Divider((
+                color: None,
+                background_color: None,
+                name: None,
+            )),
+            297: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "ci0_loc",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "ci0_loc",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            320: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "data[2]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "data[2]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            296: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "ci0_finishing_inst",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "ci0_finishing_inst",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            283: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "branch",
+                        ],
+                    ),
+                    name: "out_uid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "out_uid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            314: Divider((
+                color: None,
+                background_color: None,
+                name: None,
+            )),
+            299: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "ci0_val",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "ci0_val",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            332: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "reg_write_size",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "reg_write_size",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            325: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "data[7]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "data[7]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            286: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "ROB_has_outgoing",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "ROB_has_outgoing",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            289: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "TA_pc",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "TA_pc",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            304: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "ci1_val",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "ci1_val",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            323: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "data[6]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "data[6]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            319: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "data[1]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "data[1]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            321: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "data[4]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "data[4]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            309: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "WB_jumping",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "WB_jumping",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            318: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "data[3]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "data[3]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            222: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "MOVH_has_outgoing",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "MOVH_has_outgoing",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            298: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "ci0_uid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "ci0_uid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            225: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "SUB_has_outgoing",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "SUB_has_outgoing",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            300: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "committing_inst_0",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "committing_inst_0",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            285: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "WB_flush_all",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "WB_flush_all",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            290: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "RI_valid",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "RI_valid",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            302: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "ci1_loc",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "ci1_loc",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            305: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "ci1_finishing_inst",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "ci1_finishing_inst",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            2: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "RI_pc",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "RI_pc",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            284: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "branch",
+                        ],
+                    ),
+                    name: "result_val",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "result_val",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            221: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "BRANCH_has_outgoing",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "BRANCH_has_outgoing",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            288: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "tail",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "tail",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            295: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "committing_inst_1",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "committing_inst_1",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            327: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "writer[1]",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "writer[1]",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            316: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "new_writer",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "new_writer",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            306: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "finish_size",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "finish_size",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            224: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "MOVL_has_outgoing",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "MOVL_has_outgoing",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            292: Divider((
+                color: None,
+                background_color: None,
+                name: Some("commits"),
+            )),
+            282: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "branch",
+                        ],
+                    ),
+                    name: "out_loc",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "out_loc",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            307: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "head",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "head",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+            313: Divider((
+                color: None,
+                background_color: None,
+                name: None,
+            )),
+            287: Variable((
+                variable_ref: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "head",
+                ),
+                color: None,
+                background_color: None,
+                display_name: "head",
+                display_name_type: Unique,
+                manual_name: None,
+            )),
+        },
+        display_item_ref_counter: 332,
+        viewports: [
+            (
+                curr_left: (-0.13778666082751898),
+                curr_right: (1.1377830070501036),
+            ),
+        ],
+        variable_format: {
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "branch",
+                        ],
+                    ),
+                    name: "out_uid",
+                ),
+                field: [],
+            ): "Signed",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "RI_pc",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "TA_pc",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "branch",
+                        ],
+                    ),
+                    name: "out_loc",
+                ),
+                field: [],
+            ): "Binary",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "ci0_uid",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "clk",
+                ),
+                field: [],
+            ): "Clock",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "new_writer",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "finish_size",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "ci1_val",
+                ),
+                field: [],
+            ): "Hexadecimal",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "regs",
+                        ],
+                    ),
+                    name: "reg_write_size",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                            "rob",
+                        ],
+                    ),
+                    name: "ci1_uid",
+                ),
+                field: [],
+            ): "Unsigned",
+            (
+                root: (
+                    path: (
+                        strs: [
+                            "TOP",
+                            "cpu",
+                        ],
+                    ),
+                    name: "MOVL_out_uid",
+                ),
+                field: [],
+            ): "Unsigned",
+        },
+        cursor: Some((1, [
+            13364,
+        ])),
+        right_cursor: None,
+        markers: {},
+        focused_item: Some(53),
+        default_variable_name_type: Unique,
+        scroll_offset: 457.5,
+    )),
+    previous_waves: None,
+    count: None,
+    blacklisted_translators: [],
+    show_about: false,
+    show_keys: false,
+    show_gestures: false,
+    show_quick_start: false,
+    show_license: false,
+    show_wave_source: true,
+    show_performance: false,
+    show_logs: false,
+    show_cursor_window: false,
+    wanted_timeunit: PicoSeconds,
+    time_string_format: None,
+    show_url_entry: false,
+    variable_name_filter_focused: false,
+    variable_name_filter_type: Fuzzy,
+    variable_name_filter_case_insensitive: true,
+    rename_target: None,
+    ui_zoom_factor: None,
+)
