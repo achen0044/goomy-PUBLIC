@@ -23,5 +23,7 @@ Instant write, delayed read (~50 cycles).
 testname.hex - the test case, written in hex (see [reference.txt](reference.txt))
 > note that misalignment and self-modifying code are not allowed and will not act as expected
 > any lines that start with “- ” will be omitted from the .out (but in the .raw) (this was to omit output from verilator)
+
 testname.mem - initial values for any memory, as everything in the .hex will only be in the instruction memory and can't be read from/written to by the user
+
 testname.ok - the intended output.
